@@ -4,8 +4,12 @@
   "description": "especialización coursera - curso 1",
   "main": "index.html",
   "scripts": {
+    "dev" : "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Miguel Pantigoso",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
