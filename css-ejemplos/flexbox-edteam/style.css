@@ -8,6 +8,7 @@ body{
 	display:flex;
 	background-color: yellow;
 	height: 300px;
+	color:
 	/*para manejar los ejes*/
 	/*para cambiar los ejes column 	| row*/
 	/*flex-direction: row;*/
@@ -27,7 +28,7 @@ body{
 	border: 1px solid black;
 	/*margin: 1rem;	*/
 	width: 100px;
-	
+
 }
 /*Ejemplo2*/
 .container{
