@@ -1,0 +1,17 @@
+/*
+1. Selectores simples (una palabra)
+  h1{}
+2. Selectores compuestos (mas de una palabra)
+  h1 span{}
+
+3. Selectores con operadores
+  h1 + span{}
+
+4. Pseudoclases
+*/
+
+/*Selectores de etiqueta , clase y ID*/
+/*
+ (, es para agrupar elementos)
+ h1,.buton,p --> vas aplicar solo a estos elementos
+*/
