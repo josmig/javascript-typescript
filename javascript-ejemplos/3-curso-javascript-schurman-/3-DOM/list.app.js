@@ -1,10 +1,11 @@
 window.onload = () => {
   const formulario = document.getElementById('todo-form')
 
-  formulario.onsubmit = (e) =>{
-    e.preventDefault(); //con esto hacemos que no recargue la pagina
-    const input = document.getElementById('todo')
-    const valorInput = input.value;
-    console.log(valorInput);
+  formulario.onsubmit=(e)=>{
+    e.preventDefault();
+    const todo = document.getElementById('todo')
+    const todoText = todo.value;
+    todo.value= '';
+    console.log(todoText);
   }
 }
