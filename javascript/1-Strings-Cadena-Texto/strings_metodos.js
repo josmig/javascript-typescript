@@ -21,3 +21,14 @@ const tweet = "Javascript #JSModerno"
 console.log(actividad.split(""));
 console.log(actividad.split(" "));
 console.log(tweet.split("#"));
+
+
+//Convertir de Mayusculas y Minusculas
+const text ="Computadoras de Ultima Generación"
+console.log(text.toUpperCase());
+console.log(text.toLowerCase());
+
+
+//Para cambiar cualquier tipo de dato a un String
+const numero = 120;
+console.log(numero.toString());
