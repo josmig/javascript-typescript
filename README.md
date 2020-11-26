@@ -1,2 +1,6 @@
-# web-development-practice
-Aprendiendo HTML | CSS | JS
+# Web Development
+
+Repositorio de practica
+- Javascript
+- HTML
+- CSS
