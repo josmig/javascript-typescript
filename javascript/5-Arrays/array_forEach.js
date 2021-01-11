@@ -14,6 +14,23 @@ for(let i=0; i<productos.length;i++){
 }
 
 //Con el metodo forEach
-productos.forEach(function(p){
+const  nuevoArreglo = productos.forEach(function(p){
     console.log(`${p.nombre} ${p.color} ${p.precio}`);
 })
+
+
+//Usando MAP para interar un array 
+
+//forEach y map son practicamente igual en sintaxis pero .map te crea un arreglo nuevo , llena una variable 
+//con un arreglo nuevo.
+
+const nuevoArreglo2 = productos.map(function(asd){
+  console.log(`${asd.nombre} ${asd.color} ${asd.precio}`);  
+})
+
+console.log(nuevoArreglo);
+console.log(nuevoArreglo2);
+
+
+
+
