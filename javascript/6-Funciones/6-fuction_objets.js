@@ -1,19 +1,11 @@
+
+//Pasando un Objeto confunctions normales a Arrow function 
 const reproductor ={
-    reproducir: function(id){
-        console.log(`Reproduciendo la canción con el id:${id}`);    
-    },
-    pausar: function(){
-        console.log('pausando...');
-    },
-    borrar:function(id){
-        console.log(`Borrando cancion ${id}`);
-    },
-    crearPlaylist : function(nombre,id){
-        console.log(`Creando la playlist ${nombre} con el id:${id}`);
-    },
-    reproducirPlaylist: function(id){
-        console.log(`Creando la playlist ${id}`);
-    }
+    reproducir: id => console.log(`Reproduciendo la canción con el id:${id}`),
+    pausar: ()=> console.log('pausando...'),
+    borrar: id => `Borrando cancion ${id}`,
+    crearPlaylist :(nombre,id) => console.log(`Creando la playlist ${nombre} con el id:${id}`),
+    reproducirPlaylist: (id) => console.log(`Creando la playlist ${id}`)
 }
 
 reproductor.reproducir(30)
