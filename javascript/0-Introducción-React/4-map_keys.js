@@ -1,0 +1,1 @@
+const carrito = ['Producto 1', 'Producto2']
