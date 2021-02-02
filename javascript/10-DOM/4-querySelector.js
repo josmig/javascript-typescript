@@ -1,5 +1,7 @@
+//Quey Selector Retorna el primer elemnto y maximo 1
 //podemos seleccionar etiquetas,clases y id
 
+//seleccionando el card
 const card = document.querySelector('.card')
 console.log(card);
 
