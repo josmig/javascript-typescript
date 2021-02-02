@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.menu__main{
+  background-color: skyblue;
+  height: 60px;
+}
+.menu__main-ul{
+  display: flex;
+  justify-content: space-around;
+}
+.menu__main-items{
+  list-style: none;
+}
+
+.card{
+  border: 1px solid black;
+  margin: 10px 0px;
+  padding: 10px;
+}
