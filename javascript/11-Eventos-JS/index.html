@@ -4,10 +4,45 @@
     <meta charset="utf-8">
     <title>Eventos</title>
   </head>
+  <style>
+    body{
+      box-sizing: border-box;
+      margin: 0;
+    }
+    .navegacion{
+      background-color:  #b1355f;
+      height: 55px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .navegacion li{
+      list-style: none;
+      font-family: Raleway;
+      color: white;
+    }
+    .form{
+      border:1px solid black;
+      margin: 15px;
+      padding: 20px;
+    }
+  </style>
   <body>
+    <nav class="navegacion">
+      <li>Home</li>
+      <li>About</li>
+      <li>Projects</li>
+      <li>Contact</li>
+      <li>Login</li>
+    </nav>
 
-    
+    <form class="form">
+      <h1>Busca tu proximo destino</h1>
+      <input type="text" class="busquerda" placeholder="Buscar">
+    </form>
 
     <script src="1-detectar_html.js"></script>
+    <script src="2-evento_mouse.js"></script>
+    <script src="3-evento_teclado.js"></script>
   </body>
 </html>
