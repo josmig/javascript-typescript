@@ -1,0 +1,5 @@
+SECTION : Es un contenedor generico que agrupa contenido que esta relacionado.Cuando creamos los bloques cuyo contenido es parte de un bloque total usaremos section
+
+ARTICLE : Es un contenedor que representa contenido  independiente , es decir , podemos leer ese fragmento en cualquier otro sitio y tendria sentido por si mismo
+
+ASIDE: Se utiliza para representar contenido relacionado pero no forma parte del contenido principal
