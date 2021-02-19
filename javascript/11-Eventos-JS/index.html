@@ -26,6 +26,20 @@
       margin: 15px;
       padding: 20px;
     }
+    .premium{
+      background-color: tomato;
+      font-family: sans-serif;
+      padding: 20px;
+      margin: 10px 0px;
+      text-align: center;
+      color:white;      
+    }
+    .card a{
+      text-decoration: none;
+      background-color: black;
+      padding:9px;
+      color:white;
+    }
   </style>
   <body>
     <nav class="navegacion">
@@ -37,12 +51,30 @@
     </nav>
 
     <form class="form">
-      <h1>Busca tu proximo destino</h1>
+      <h1>Buscas tu proximo destino</h1>
       <input type="text" class="busquerda" placeholder="Buscar">
     </form>
-
+    <div>
+    <form class="formulario" action="/buscador">
+      <input type="text" placeholder="nombre">
+      <input type="text" placeholder="correo electronico">
+      <input type="text" placeholder="password">
+      <input type="submit" value="Enviar">
+    </form>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="premium">
+      <div class="card">
+        <h2>¿Buscas alojamiento?</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, aliquam?</p>
+        <a href="">Buscar</a>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <script src="1-detectar_html.js"></script>
     <script src="2-evento_mouse.js"></script>
     <script src="3-evento_teclado.js"></script>
+    <script src="4-evento_submit.js"></script>
+    <script src="5-evento_scroll.js"></script>
   </body>
 </html>
