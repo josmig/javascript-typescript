@@ -1,0 +1,84 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*Selectores -> No es recomendable usar el selector de ID para dar estilos , se usa mas que todo en lo que JS PARA EL TEma de los eventos*/
+
+/* elemento */
+h1{
+    color:black;
+}   
+/* clase */
+.titulo{
+    color:white
+}
+
+/* ID */
+#titulo{
+    color:yellowgreen;
+}
+
+/* Selectores de atributo */
+
+/*Con eso puedes seleccionar todos los elementos que tienen tal atributo en común*/
+[href]{
+    color:green;
+    display: block;
+}
+/* Con esto selecciona todos los elementos que tienen ese atributo */
+[href="#"]{
+    color:red;
+    display: block;
+}
+/*Con esto selecciona los elementos que tiene esa clase o atributo al menos una sola vez*/
+[class~="verde"]{    
+    color:blue;
+    display: block;
+}
+
+/*Con esto selecciona los elementos que tienen ese atributo y exactamente ese valor y empieza por el valor seguido de un guión*/
+[class|='azul']{
+    color:mediumvioletred;
+    display: block;
+}
+/*Con esto selecciona los elementos que tiene ese atributo y empieza exactamente por ese valor no importa si lo quenviene despues es un guin ejemplo -> rojo-verde*/
+[class^="rojo"]{
+    color:orangered;
+}
+/*Con esto selecciona los elementos que tiene el atributo pero en la parte final no importa si lo que viene antes es un guion ejmplo -> rojo-"asd"*/
+[class$='asd']{
+    color:lime;
+
+}
+
+/*Con esto selecciona los elementos que tiene el atributo y contengan el valor no importa en el orden en el que este rojo-CIELO-asds*/
+[class*="cielo"]{
+    font-size: 20px;
+    color:royalblue
+}
+
+
+/*Selectores combinadores*/
+/* selector de hermano adyacente -> Selecciona a un hermano que este justo debajo de el . El estilo se aplica al hermano inferior*/
+h1 + h2{
+    color:red;
+}
+h2 + h2 {
+    color:blue;
+}
+/*Selector de un hermano general que este  por debajo de el . El estilo se aplica a todos  los hermanos*/
+
+h1 ~ h3{
+    color:green;
+}
+
+/*Selectores descendentes*/
+p span{
+    color:red;
+}
+
+/*Selector de hijo directo*/
+p > span{
+    color:blue;
+}
