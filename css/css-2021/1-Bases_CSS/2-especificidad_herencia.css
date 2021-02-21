@@ -1,0 +1,46 @@
+/*La herencia se aplica con el valor inherit, esto obliga al elemento a heredar la propiedad de su elemento mas cercano osea del elemento padre */
+
+/* La cascada es el orden con lo cual se le aplicaran los estilos al ir leyendo el css, los elementos que vienen despues sobreescriben a los anteriores */
+
+/*Herencia*/
+p{
+    color:green;
+}
+
+a{
+    color:inherit;
+}
+
+/*La casca esta relacionada con la especificidad
+
+Etiqueta              -> 1
+Clases y pseudoClases -> 10
+ID                    -> 100
+Estilos en linea      -> 1000
+!important            -> Gana a todo
+
+
+important -> especificidad -> cascada
+*/
+
+p{
+    color:red;    
+}
+a{
+    color:inherit;
+}
+p{
+    color:green ; /*Gana el color rosa por que el archivo se lee de arriba a abajo y toma por defecto el ultimo valor */
+}
+
+.parrafo{
+    color:blue; /*aca no importa la cascada porque la especificidad gana a la cascada*/
+}
+#parrafo{
+    color:purple; /*aca igual no importa la cascada el ID pesa mucho mas pero noes recomendable usar para dar estilos.*/
+}
+
+p{
+/*     color:black !important */;
+    /*con este codigo pinta a todos no le interesa la especificidad pero es malo usarlo , salvo casos extremos.*/
+}
