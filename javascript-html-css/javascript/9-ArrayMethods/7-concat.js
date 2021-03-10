@@ -10,3 +10,5 @@ console.log(meses3);
 //Aca es con el spreed operator
 const resultado = [...meses,...meses1,...meses2,'HOLA'];
 console.log(resultado);
+
+
